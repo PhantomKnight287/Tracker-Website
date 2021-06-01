@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    font-weight: bold;
+    background-color: rgb(26 28 44);
+    color: #00fff6;
+}
+
+.span {
+    text-align: center;
+    color: yellow;
+    font-size: medium;
+}
+.visits {
+    color: aqua;
+}
+*{
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+}

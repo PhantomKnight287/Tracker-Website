@@ -9,14 +9,38 @@ body {
 
 .span {
     text-align: center;
-    color: yellow;
+    
     font-size: medium;
 }
-.visits {
+.visits,.ip,.timezone {
     color: aqua;
 }
 *{
     text-align: center;
-    font-size: larger;
     font-style: italic;
+    font-size: 1.2em;
+}
+.header {
+    color: darkmagenta;
+}
+.body-head,.head {
+    padding-top: 20px;
+    color: red;
+}
+.nav {
+    color: cyan;
+    padding-top: 1px;
+    display: block;
+}
+.battery-head {
+    color: red;
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+.foot {
+    padding-top: 200px;
+    font-size: 0.7em;
+}
+.battery-percentage {
+    padding-bottom: 20px;
 }

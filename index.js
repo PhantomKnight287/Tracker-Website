@@ -104,7 +104,11 @@ if (batterySupport===true){
             if (batteryObject.charging===true){
             document.querySelector('.charging-status').textContent=`Your device is charging.`}
             else{document.querySelector('.charging-status').textContent=`Your device is not charging.`}
-            document.querySelector('.battery-percentage').textContent=`Your battery percentage is nearly about ${batteryObject.level}`
+            if (touchPoints>1){
+            document.querySelector('.battery-percentage').textContent=`Your battery percentage is nearly about ${batteryObject.level*100}%`}
+            else{
+                document.querySelector('.battery-percentage').textContent=`Your battery percentage is nearly about ${batteryObject.level}%`}
+          
         },3000)
         document.querySelector('.battery-head').innerHTML='<b>Loading...</b>'
 

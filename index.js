@@ -69,7 +69,7 @@ dat().then(response=>{
     document.querySelector('.city').textContent=`Your city is ${items.city}`
     document.querySelector('.pin').textContent=`Your area pincode is around ${items.pin}`
     document.querySelector('.timeZone').textContent=`Your time zone is ${items.timeZone}`
-    document.querySelector('.country').textContent=`Your continent is ${items.country}`
+    document.querySelector('.country').textContent=`Your country is ${items.country}`
     document.querySelector('.continent').textContent=`Your continent is ${items.continent}`
     async function weather(){
         let data = await  fetch(`https://ip-alternative.herokuapp.com/weather/${items.city}`,

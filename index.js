@@ -37,7 +37,7 @@ function apply(){
     document.querySelector('.colorDepth').textContent=colorDepthPhras
     document.querySelector('.dimensions').textContent=dimensions
     document.querySelector('.visits').textContent=visitPhrase
-    document.querySelector('.timeZone').textContent=`The time of your area as per the internet is '${new Date()}'.`
+    document.querySelector('.timeZone').textContent=`The current time of your country as per the internet is '${new Date()}'.`
 
 }
 function fancy(){
